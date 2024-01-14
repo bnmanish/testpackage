@@ -1,0 +1,22 @@
+{
+    "name": "bn-packaging/bnmanish-test",
+    "description": "Description of your package",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "B N Manish",
+            "email": "bnmanish006@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "bn-packaging\\bnmanish-test\\": "src/"
+        }
+    }
+}
